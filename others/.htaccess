@@ -1,0 +1,4 @@
+AuthName "other"
+AuthType Basic
+AuthUserFile /home/imbach/.htpasswd
+require valid-user

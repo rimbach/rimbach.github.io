@@ -1,0 +1,198 @@
+@InProceedings{IPY+2019,
+author="Imbach, R{\'e}mi
+and Pan, Victor Y.
+and Yap, Chee
+and Kotsireas, Ilias S.
+and Zaderman, Vitaly",
+editor="England, Matthew
+and Koepf, Wolfram
+and Sadykov, Timur M.
+and Seiler, Werner M.
+and Vorozhtsov, Evgenii V.",
+title="Root-Finding with Implicit Deflation",
+booktitle="Computer Algebra in Scientific Computing",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="236--245",
+abstract="Functional iterations such as Newton's are a popular tool for polynomial root-finding. We consider realistic situation where some (e.g., better-conditioned) roots have already been approximated and where further computations is directed to the approximation of the remaining roots. Such a situation is also realistic for root by means of subdivision iterations. A natural approach of applying explicit deflation has been much studied and recently advanced by one of the authors of this paper, but presently we consider the alternative of implicit deflation combined with the mapping of the variable and reversion of an input polynomial. We also show another unexplored direction for substantial further progress in this long and extensively studied area. Namely we dramatically increase the local efficiency of root-finding by means of the incorporation of fast algorithms for multipoint polynomial evaluation and Fast Multipole Method.",
+isbn="978-3-030-26831-2",
+url="https://link.springer.com/chapter/10.1007/978-3-030-26831-2_16"
+}
+
+@unpublished{IPY2019,
+  TITLE = {{Clustering Complex Zeros of Triangular System of Polynomials}},
+  AUTHOR = {Imbach, R{\'e}mi and Pouget, Marc and Yap, Chee},
+  URL = {http://arxiv.org/abs/1806.10164},
+  NOTE = {arXiv preprint arXiv:1806.10164},
+  YEAR = {2019},
+  MONTH = Mar
+}
+
+@InProceedings{IPY2018,
+author="Imbach, R{\'e}mi
+and Pan, Victor Y.
+and Yap, Chee",
+editor="Davenport, James H.
+and Kauers, Manuel
+and Labahn, George
+and Urban, Josef",
+title="Implementation of a Near-Optimal Complex Root Clustering Algorithm",
+booktitle="Mathematical Software -- ICMS 2018",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="235--244",
+abstract="We describe Ccluster, a software for computing natural {\$}{\$}{\backslash}varepsilon {\$}{\$}$\epsilon$-clusters of complex roots in a given box of the complex plane. This algorithm from Becker et al. (2016) is near-optimal when applied to the benchmark problem of isolating all complex roots of an integer polynomial. It is one of the first implementations of a near-optimal algorithm for complex roots. We describe some low level techniques for speeding up the algorithm. Its performance is compared with the well-known MPSolve library and Maple.",
+isbn="978-3-319-96418-8"
+}
+
+@article{IMP2018,
+title = "Reliable Location with Respect to the Projection of a Smooth Space Curve",
+journal = "Reliable Computing",
+volume = "26",
+number = "",
+pages = "13 - 55",
+year = "2018",
+url = "https://interval.louisiana.edu/reliable-computing-journal/tables-of-contents.html#Volume_26",
+author = "R{\'e}mi Imbach and Guillaume Moroz and Marc Pouget"
+}
+
+@article{IMP2017,
+title = "A certified numerical algorithm for the topology of resultant and discriminant curves ",
+journal = "Journal of Symbolic Computation ",
+volume = "80, Part 2",
+number = "",
+pages = "285 - 306",
+year = "2017",
+note = "",
+issn = "0747-7171",
+doi = "http://dx.doi.org/10.1016/j.jsc.2016.03.011",
+url = "http://www.sciencedirect.com/science/article/pii/S0747717116300128",
+author = "R{\'e}mi Imbach and Guillaume Moroz and Marc Pouget",
+keywords = "Topology of algebraic curves",
+keywords = "Resultant",
+keywords = "Discriminant",
+keywords = "Subresultant",
+keywords = "Numerical algorithm",
+keywords = "Singularities",
+keywords = "Interval arithmetic",
+keywords = "Node and cusp singularities ",
+abstract = "Abstract Let C be a real plane algebraic curve defined by the resultant of two polynomials (resp. by the discriminant of a polynomial). Geometrically such a curve is the projection of the intersection of the surfaces P ( x , y , z ) = Q ( x , y , z ) = 0 (resp. P ( x , y , z ) = ∂ P ∂ z ( x , y , z ) = 0 ), and generically its singularities are nodes (resp. nodes and ordinary cusps). State-of-the-art numerical algorithms compute the topology of smooth curves but usually fail to certify the topology of singular ones. The main challenge is to find practical numerical criteria that guarantee the existence and the uniqueness of a singularity inside a given box B, while ensuring that B does not contain any closed loop of C . We solve this problem by first providing a square deflation system, based on subresultants, that can be used to certify numerically whether B contains a unique singularity p or not. Then we introduce a numeric adaptive separation criterion based on interval arithmetic to ensure that the topology of C in B is homeomorphic to the local topology at p. Our algorithms are implemented and experiments show their efficiency compared to state-of-the-art symbolic or homotopic methods. "
+}
+
+@Article{IMS2016a,
+author="Imbach, R{\'e}mi
+and Mathis, Pascal
+and Schreck, Pascal",
+title="A robust and efficient method for solving point distance problems by homotopy",
+journal="Mathematical Programming",
+year="2016",
+pages="1--30",
+abstract="The goal of Point Distance Solving Problems is to find 2D or 3D placements of points knowing distances between some pairs of points. The common guideline is to solve them by a numerical iterative method (e.g. Newton--Raphson method). A sole solution is obtained whereas many exist. However the number of solutions can be exponential and methods should provide solutions close to a sketch drawn by the user. Geometric reasoning can help to simplify the underlying system of equations by changing a few equations and triangularizing it. This triangularization is a geometric construction of solutions, called construction plan. We aim at finding several solutions close to the sketch on a one-dimensional path defined by a global parameter-homotopy using a construction plan. Some numerical instabilities may be encountered due to specific geometric configurations. We address this problem by changing on-the-fly the construction plan. Numerical results show that this hybrid method is efficient and robust.",
+issn="1436-4646",
+doi="10.1007/s10107-016-1058-7",
+url="http://dx.doi.org/10.1007/s10107-016-1058-7"
+}
+
+@techreport{Imbach2016c,
+  TITLE = {{A Subdivision Solver for Systems of Large Dense Polynomials}},
+  AUTHOR = {Imbach, R{\'e}mi},
+  URL = {https://hal.inria.fr/hal-01293526},
+  TYPE = {Technical Report},
+  NUMBER = {RT-0476},
+  PAGES = {13},
+  INSTITUTION = {{INRIA Nancy}},
+  YEAR = {2016},
+  MONTH = Mar,
+  KEYWORDS = { Large Dense Polynomials ;  Real Solutions ; Interval Arithmetic ;  Subdivision ;  Adaptive Multi-Precision},
+  PDF = {https://hal.inria.fr/hal-01293526/file/RT-476.pdf},
+  HAL_ID = {hal-01293526},
+  HAL_VERSION = {v2},
+}
+ 
+@Inbook{IMP16b,
+author="Imbach, R{\'e}mi
+and Moroz, Guillaume
+and Pouget, Marc",
+editor="Kotsireas, Ilias S.
+and Rump, Siegfried M.
+and Yap, Chee K.",
+title="Numeric and Certified Isolation of the Singularities of the Projection of a Smooth Space Curve",
+bookTitle="Mathematical Aspects of Computer and Information Sciences: 6th International Conference, MACIS 2015, Berlin, Germany, November 11-13, 2015, Revised Selected Papers",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="78--92",
+isbn="978-3-319-32859-1",
+doi="10.1007/978-3-319-32859-1_6",
+url="http://dx.doi.org/10.1007/978-3-319-32859-1_6"
+}
+
+@article{ISM2014,
+  title={Leading a continuation method by geometry for solving geometric constraints},
+  author={Imbach, R\'{e}mi and Schreck, Pascal and Mathis, Pascal},
+  journal={Computer-Aided Design},
+  volume={46},
+  pages={138--147},
+  year={2014},
+  publisher={Elsevier},
+  pdf={./articles/imbach2013leading.pdf}
+}
+
+@inproceedings{MSI2012,
+  title={Decomposition of geometrical constraint systems with reparameterization},
+  author={Mathis, Pascal and Schreck, Pascal and Imbach, R\'{e}mi},
+  booktitle={Proceedings of the 27th Annual ACM Symposium on Applied Computing},
+  pages={102--108},
+  year={2012},
+  organization={ACM},
+  url={http://dl.acm.org/citation.cfm?id=2245298}
+}
+
+@inproceedings{IMS2011,
+  title={Tracking method for reparametrized geometrical constraint systems},
+  author={Imbach, R\'{e}mi and Mathis, Pascal and Schreck, Pascal},
+  booktitle={2011 13th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing},
+  pages={31--38},
+  year={2011},
+  organization={IEEE},
+  pdf={./articles/imbach2011tracking.pdf}
+} 
+
+@inproceedings{IMP2015,
+  title={A Certified Numerical Approach to Describe the Topology of Projected Curves},
+  author={Imbach, R\'{e}mi and Moroz, Guillaume and Pouget, Marc},
+  booktitle={Journ\'{e}es de l'Association Fran\c{c}aise d'Informatique Graphique},
+  year={2015},
+  pdf={./articles/imbach2015certified.pdf}
+} 
+
+@inproceedings{IMP2012,
+  title={Une approche par d\'{e}composition et reparam\'{e}trisation de syst\`{e}mes de contraintes g\'{e}om\'{e}triques},
+  author={Imbach, R\'{e}mi and Mathis, Pascal and Schreck, Pascal},
+  booktitle={Journ\'{e}es du Groupe de Travail en Mod\'{e}lisation G\'{e}om\'{e}trique},
+  year={2012},
+  pdf={./articles/imbach2012approche.pdf}
+} 
+
+@phdthesis{imbach2013,
+  title={R{\'e}solution de contraintes g{\'e}om{\'e}triques en guidant une m{\'e}thode homotopique par la g{\'e}om{\'e}trie},
+  author={Imbach, R{\'e}mi},
+  year={2013},
+  school={Universit\'{e} de Strasbourg},
+  pdf={./articles/imbach_remi_2013_ED269.pdf}
+}
+
+@techreport{IPY2018techrep,
+  TITLE = {{Implementation of a Near-Optimal Complex Root Clustering Algorithm}},
+  AUTHOR = {Imbach, R{\'e}mi and Pan, Victor Y. and Yap, Chee},
+  URL = {https://hal.archives-ouvertes.fr/hal-01822137},
+  TYPE = {Research Report},
+  INSTITUTION = {{TU Kaiserslautern ; City University of New York ; Courant Institute of Mathematical Sciences, New York University}},
+  YEAR = {2018},
+  MONTH = Jun,
+  PDF = {https://hal.archives-ouvertes.fr/hal-01822137/file/imbach_pan_yap.pdf},
+  HAL_ID = {hal-01822137},
+  HAL_VERSION = {v1},
+}
